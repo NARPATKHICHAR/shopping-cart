@@ -30,14 +30,6 @@ const cartSlice = createSlice({
       state.userId = action.payload;
       console.log("action.payload", action);
     },
-
-    // totalPrice: (state) => {
-    //   state.cartItems.reduce(
-    //     (, cartItem) => state + cartItem.price * cartItem.quantity,
-    //     0
-    //   );
-    // console.log(total);
-    // },
   },
 });
 
