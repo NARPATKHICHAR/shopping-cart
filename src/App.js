@@ -5,9 +5,6 @@ import Next from "./comp2/Next";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
-  // useEffect(()=>{
-  //    console.log(document.cookie)
-  // },[])
   return (
     <Routes>
       <Route path="/login" element={<Login />} />
